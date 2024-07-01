@@ -1,0 +1,65 @@
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 15%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+}
+
+.block {
+    display: block;
+}
+
+.click {
+    background-color: rgb(113, 113, 113);
+}
+
+.new-color {
+    background: blue;
+}
+
+.accessible-styles {
+    background: hsl(0, 0%, 14%);
+    color: hsl(0, 0%, 85%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.custom-btn {
+    font-size: inherit;
+    background-color: hsl(0, 0%, 47%);
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 0.725rem;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 60rem;
+    border: 1px solid black;
+    padding: 3rem;
+    line-height: 1.75;
+}
+
+h2 {
+    color: darkcyan;
+    margin: 0;
+    padding: 0;
+}
+
+#textTarget {
+    background-color: aliceblue ;
+}
+.dynamic:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+#userInput:focus::placeholder {
+    color: transparent;
+}

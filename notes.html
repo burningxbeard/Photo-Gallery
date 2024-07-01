@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes - Learning Javascript</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Javascript project for practice</h2>
+      <p>
+        Here’s a really simple (not easy) project that will get you through all
+        the basic tools you would use in most projects. Try it with vanilla js
+        but if you need a little help, use jquery
+      </p>
+
+      <ol>
+        <li>
+          Create a form with a single input and a submit button. Enter text,
+          press submit. Make the text appear below the form. Add text, submit,
+          change what’s below.
+        </li>
+        <li>
+          now make it so every time you add text and hit submit, it adds the
+          text on a line below the previous
+        </li>
+        <li>now add a line counter that displays how many lines are there.</li>
+        <li>now make it so when you click a line of text, it disappears.</li>
+        <li>
+          now (if you haven’t done it previously) change your structure to work
+          by adding your text to an array and outputting the array as lines of
+          text below the form. Have your counter show the length of the array
+          rather than just incrementing.
+        </li>
+      </ol>
+      <p>
+        Congrats. You just did all the basics of DOM manipulation using arrays
+        to control content.
+      </p>
+
+      <p>
+        All of these are small tasks, but they are the skills that you’ll use in
+        any project. If you’re not sure how to do something, google is your
+        friend. Use stack overflow.
+      </p>
+
+      <form id="textTest">
+        <input id="userInput" type="text" placeholder="Enter your text here" />
+        <input type="button" onclick="addItem()" value="Submit" />
+      </form>
+      <div id="arrayOutput"></div>
+      <div id="textTarget"></div>
+      <div id="counter"></div>
+    
+    </div>
+
+        <script src="./assets/js/script.js"></script>
+  </body>
+</html>

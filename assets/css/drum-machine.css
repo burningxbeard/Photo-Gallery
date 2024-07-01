@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: #2c2c2c;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #4ab7db;
+    font-family: arial;
+  }
+  
+  .instrument {
+    background-color:rgb(49, 49, 0) ;
+    margin: 10px auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .drum {
+    outline: none;
+    border: 5px solid #4e5158;
+    font-size: 3rem;
+    font-family: arial;
+    font-weight: 700;
+    color: #838383;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(3, 3, 3);
+  }
+
+  button {
+    cursor: pointer;
+  }
